@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="270px" preserveAspectRatio="none" style="width:1717px;height:270px;background:#FFFFFF;" version="1.1" viewBox="0 0 1717 270" width="1717px" zoomAndPan="magnify"><defs/><g><!--MD5=[2b2a6b50c99fb7aeaa2cbf91c6909b92]
+cluster Система моніторингу безпеки на будівельному майданчику--><g id="cluster_Система моніторингу безпеки на будівельному майданчику"><rect fill="none" height="120" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;" width="1704" x="7" y="144.5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="490" x="614" y="159.4951">Система моніторингу безпеки на будівельному майданчику</text></g><g id="elem_UC1"><ellipse cx="133.0183" cy="214.0037" fill="#F1F1F1" rx="110.5183" ry="24.5037" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="39.5183" y="216.8503">Моніторинг натягу тросів</text></g><g id="elem_UC2"><ellipse cx="399.7717" cy="214.0543" fill="#F1F1F1" rx="120.7717" ry="26.5543" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="209" x="295.2717" y="216.901">Виявлення падіння вантажів</text></g><g id="elem_UC3"><ellipse cx="716.8486" cy="214.0697" fill="#F1F1F1" rx="160.8486" ry="34.5697" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="293" x="570.3486" y="216.9164">Надсилання сповіщень у реальному часі</text></g><g id="elem_UC4"><ellipse cx="1011.1626" cy="214.0325" fill="#F1F1F1" rx="98.1626" ry="22.0325" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="160" x="931.1626" y="216.8792">Аналіз даних сенсорів</text></g><g id="elem_UC5"><ellipse cx="1551.0139" cy="214.2028" fill="#F1F1F1" rx="144.0139" ry="31.2028" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="258" x="1422.0139" y="217.0495">Налаштування параметрів системи</text></g><g id="elem_UC6"><ellipse cx="1257.8004" cy="214.0601" fill="#F1F1F1" rx="113.3004" ry="25.0601" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="1161.3004" y="216.9068">Генерація звітів з безпеки</text></g><!--MD5=[823f69c0793ff4acbd80a559420afab7]
+entity Worker--><g id="elem_Worker"><ellipse cx="400" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M400,22 L400,49 M387,30 L413,30 M400,49 L387,64 M400,49 L413,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="363" y="78.4951">Працівник</text></g><!--MD5=[cd29e6e00d87eccba14cb5c6b5746cd5]
+entity SafetyManager--><g id="elem_SafetyManager"><ellipse cx="1011" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1011,22 L1011,49 M998,30 L1024,30 M1011,49 L998,64 M1011,49 L1024,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="932.5" y="78.4951">Менеджер з безпеки</text></g><!--MD5=[8a47051e8ab9cb95870e198e55205bc1]
+entity SysAdmin--><g id="elem_SysAdmin"><ellipse cx="1551" cy="14" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M1551,22 L1551,49 M1538,30 L1564,30 M1551,49 L1538,64 M1551,49 L1564,64 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="1475" y="78.4951">Технічний спеціаліст</text></g><!--MD5=[eb51b25902f6fd28a5334ac907b006fe]
+link Worker to UC1--><g id="link_Worker_UC1"><path d="M362.87,67.93 C312.84,99.51 224.13,155.49 172.77,187.9 " fill="none" id="Worker-to-UC1" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="168.53,190.58,178.2752,189.1548,172.7571,187.9095,174.0024,182.3914,168.53,190.58" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="292" y="124.5669">Моніторить</text></g><!--MD5=[9cbc832dcfc739deac6c949cd99e36e0]
+link Worker to UC2--><g id="link_Worker_UC2"><path d="M400,81.9 C400,112.11 400,154.11 400,182.35 " fill="none" id="Worker-to-UC2" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="400,187.46,404,178.46,400,182.46,396,178.46,400,187.46" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="401" y="124.5669">Отримує сповіщення</text></g><!--MD5=[1aafc0baac0ce718a94c86b4cffe312e]
+link Worker to UC3--><g id="link_Worker_UC3"><path d="M437.3,59.61 C468.03,72.43 512.49,91.83 550,111.5 C588.96,131.94 631.3,157.71 663.6,178.18 " fill="none" id="Worker-to-UC3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="667.89,180.9,662.4374,172.6982,663.6693,178.2193,658.1483,179.4513,667.89,180.9" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="579" y="124.5669">Отримує сповіщення</text></g><!--MD5=[2649b61df1e2a63efb262e9c5b51106e]
+link SafetyManager to UC3--><g id="link_SafetyManager_UC3"><path d="M932.12,76.3 C908.76,86.63 883.44,98.74 861,111.5 C826.53,131.1 790.05,156.87 762.43,177.54 " fill="none" id="SafetyManager-to-UC3" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="758.42,180.56,768.02,178.36,762.42,177.56,763.22,171.96,758.42,180.56" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="140" x="862" y="124.5669">Отримує сповіщення</text></g><!--MD5=[cfb82e5c6970323993c8914712f57268]
+link SafetyManager to UC6--><g id="link_SafetyManager_UC6"><path d="M1085.17,81.53 C1101.93,90.72 1119.37,100.98 1135,111.5 C1168.79,134.25 1204.37,164.38 1228.52,185.89 " fill="none" id="SafetyManager-to-UC6" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1232.29,189.26,1228.2571,180.2747,1228.5664,185.9231,1222.918,186.2324,1232.29,189.26" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="1157" y="124.5669">Запитує звіти</text></g><!--MD5=[84ebf3464974f9dd824660a949c12ec4]
+link SafetyManager to UC4--><g id="link_SafetyManager_UC4"><path d="M1011,81.9 C1011,113.66 1011,158.45 1011,186.59 " fill="none" id="SafetyManager-to-UC4" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1011,191.65,1015,182.65,1011,186.65,1007,182.65,1011,191.65" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="1012" y="124.5669">Переглядає дані</text></g><!--MD5=[b754d3501f467e3014c8a8965f5216b3]
+link SysAdmin to UC5--><g id="link_SysAdmin_UC5"><path d="M1551,81.9 C1551,110.46 1551,149.57 1551,177.63 " fill="none" id="SysAdmin-to-UC5" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="1551,182.73,1555,173.73,1551,177.73,1547,173.73,1551,182.73" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="39" x="1552" y="124.5669">Керує</text></g><!--MD5=[aba8c7411b6afaadb94e6be6b3cf5e51]
+@startuml
+actor "Працівник" as Worker
+actor "Менеджер з безпеки" as SafetyManager
+actor "Технічний спеціаліст" as SysAdmin
+
+rectangle "Система моніторингу безпеки на будівельному майданчику" {
+    usecase "Моніторинг натягу тросів" as UC1
+    usecase "Виявлення падіння вантажів" as UC2
+    usecase "Надсилання сповіщень у реальному часі" as UC3
+    usecase "Аналіз даних сенсорів" as UC4
+    usecase "Налаштування параметрів системи" as UC5
+    usecase "Генерація звітів з безпеки" as UC6
+}
+
+Worker - -> UC1 : "Моніторить"
+Worker - -> UC2 : "Отримує сповіщення"
+Worker - -> UC3 : "Отримує сповіщення"
+
+SafetyManager - -> UC3 : "Отримує сповіщення"
+SafetyManager - -> UC6 : "Запитує звіти"
+SafetyManager - -> UC4 : "Переглядає дані"
+
+SysAdmin - -> UC5 : "Керує"
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
